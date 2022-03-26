@@ -1,0 +1,29 @@
+{
+	"generic": {
+		"mongoDBConnectionString": "mongodb://<USER>:<PASSWORD>@<DOMAIN>:<PORT>/<DATABASE NAME>",
+		"domains": {
+			"fasmga": "<MAIN DOMAIN>",
+			"redirects": "<REDIRECTS DOMAIN>",
+			"accounts": "<ACCOUNTS DOMAIN>"
+		},
+		"debug": false
+	},
+	"fasmga": {
+		"URLGeneration": {
+			"collections": true,
+			"advancedSecurityOptions": true
+		}
+	},
+	"redirects": {
+		"reservedURLs": {
+
+		}
+	},
+	"accounts": {
+		"anonymousURLs": true,
+		"accountGeneration": {
+			"2fa": true,
+			"publicProfiles": false
+		}
+	}
+}
