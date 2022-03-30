@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="FASM.GA" />
+        <meta property="og:title" content="FASM.GA - Accorcia un URL" />
+        <meta property="og:description" content="FASM.GA è un buon URL shortener fatto da ParliamoDiPC."/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/fasm-ga/short/main/seo-img.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ParliamoDiPC" />
+        <meta name="twitter:creator" content="@ParliamoDiPC" />
+        <meta name="keywords" content="url shortener, fasm.ga, fasm ga" />
+        <meta name="theme-color" content="#008AFC">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>I tuoi URL | {{ siteName }}</title>
+</head>
+<body>
+	<fieldset>
+	<legend>I tuoi URL | {{ siteName }}</legend>
+	<p>I tuoi URL: </p>
+	<a href="/">Crea un nuovo link</a>
+	<table style="width:100%">
+		<tr>
+			<th>ID</th>
+			<th>URL</th>
+			<th>Elimina</th>
+			<th>Modifica</th>
+		</tr>
+		{{ idTable|safe }}
+	</table>
+	{{ error|safe }}
+	</fieldset>
+</body>
+</html>

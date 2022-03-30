@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="568px" height="402px" viewbox="0 0 568 402" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="25" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_2">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="14.5" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g filter="url(#filter_1)">
+    <g id="Group-2" transform="translate(75 73)">
+      <path d="M0 100C0 44.7715 44.7715 0 100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100Z" transform="translate(0 52)" id="Ellipse-2" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M0 100C0 44.7715 44.7715 0 100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100Z" transform="translate(110.30002 0)" id="Ellipse-2-Copy" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M0 100C0 44.7715 44.7715 0 100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100Z" transform="translate(217.1 52)" id="Ellipse-2-Copy-2" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M0 0L217 0L217 88L0 88L0 0Z" transform="translate(100 164)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+  <g id="" fill="#240268" filter="url(#filter_2)" transform="matrix(0.92718416 -0.37460673 0.37460673 0.92718416 165.23627 125.45755)">
+    <path d="M70.4 154.72C68.8 130.92 98.4 124.12 98.4 94.5195C98.4 71.1195 80.4 51.7195 51.2 52.3195C26.4 52.9195 6.2 67.9195 6.8 97.7195L36.8 97.7195C36.8 88.3195 43.4 84.3195 50.4 84.1195C57 84.1195 64.2 87.7195 64 95.1195C62.4 118.12 31.8 123.32 35 154.72L70.4 154.72ZM52.8 196.52C64 196.52 72.2 189.32 72.2 178.32C72.2 167.12 64 159.92 52.8 159.92C41.6 159.92 32.8 167.12 32.8 178.32C32.8 189.32 41.6 196.52 52.8 196.52Z" />
+  </g>
+  <g id="" fill="#240268" filter="url(#filter_2)" transform="matrix(1.0000012 -3.0728113E-09 3.0728113E-09 1.0000012 306.23282 150.99997)">
+    <path d="M33.792 74.4854C33.024 63.0614 47.232 59.7974 47.232 45.5894C47.232 34.3574 38.592 25.0454 24.576 25.3334C12.672 25.6214 2.976 32.8214 3.264 47.1254L17.664 47.1254C17.664 42.6134 20.832 40.6934 24.192 40.5974C27.36 40.5974 30.816 42.3254 30.72 45.8774C29.952 56.9174 15.264 59.4134 16.8 74.4854L33.792 74.4854ZM25.344 94.5494C30.72 94.5494 34.656 91.0934 34.656 85.8134C34.656 80.4374 30.72 76.9814 25.344 76.9814C19.968 76.9814 15.744 80.4374 15.744 85.8134C15.744 91.0934 19.968 94.5494 25.344 94.5494Z" />
+  </g>
+</svg>

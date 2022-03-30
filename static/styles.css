@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+}
+
+/* <link rel="stylesheet" href="https://fasm.ga/.css" /> */
